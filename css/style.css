@@ -15,16 +15,14 @@
   color: white;
 }
 
-html {
-  height: 100%;
-}
-
 body {
 	background: #631a84;
-  background: -moz-linear-gradient(-45deg,  #631a84 0%, #5621b2 43%, #a01b9e 51%, #000000 100%);
-  background: -webkit-linear-gradient(-45deg,  #631a84 0%,#5621b2 43%,#a01b9e 51%,#000000 100%);
-  background: linear-gradient(135deg,  #631a84 0%,#5621b2 43%,#a01b9e 51%,#000000 100%);
+  background: -moz-linear-gradient(-45deg,  #631a84 0%, #5621b2 43%, #a01b9e 51%, #000000 100%) no-repeat;
+  background: -webkit-linear-gradient(-45deg,  #631a84 0%,#5621b2 43%,#a01b9e 51%,#000000 100%) no-repeat;
+  background: linear-gradient(135deg,  #631a84 0%,#5621b2 43%,#a01b9e 51%,#000000 100%) no-repeat;
+  background-size: cover;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#631a84', endColorstr='#000000',GradientType=1 );
+  height: 100%;
   margin: 0;
 }
 
